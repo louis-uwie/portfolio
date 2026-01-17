@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "institution": "Ateneo De Manila University",
+        "degree": "Bachelor of Science in Computer Science",
+        "start_year": 2022,
+        "end_year": 2026,
+        "link": "https://www.ateneo.edu",
+        "image": "/images/AteneoDeManilaSeal.svg"
+    },
+    {
+        "id": 2,
+        "institution": "Ateneo De Manila University",
+        "degree": "Bachelor of Arts in Information Design (Course Work Only)",
+        "start_year": 2020,
+        "end_year": 2022,
+        "link": "https://www.ateneo.edu",
+        "image": "/images/AteneoDeManilaSeal.svg"
+    },
+    {
+        "id": 3,
+        "institution": "Lourdes School of Mandaluyong",
+        "degree": "Grade 1 - Grade 12 Education, General Academics Strand (GAS)",
+        "start_year": 2009,
+        "end_year": 2020,
+        "link": "https://lsm.edu.ph/",
+        "image": "/images/LourdesSchoolOfMandaluyongSeal.png"
+    }
+]
