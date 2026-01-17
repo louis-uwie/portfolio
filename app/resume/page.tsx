@@ -1,14 +1,9 @@
 export default function ResumePage(){
 
     return (
-        <div className="resume-page flex flex-col gap-4 p-8">
-            Resume Page
-
-            <div className="">  
-                Ateneo De Manila University
-                Bachelor of Science, Major in Computer Science
-            </div>
-
+        <div className="align-center justify-center items-center flex flex-col gap-4 p-8 mt-32">
+            <p className="text-xl font-bold">This page is under construction!</p>
+            Resume Page.
         </div>
     )
 

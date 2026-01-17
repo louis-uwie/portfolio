@@ -4,7 +4,7 @@ import profilePhoto from "../public/images/profile-photo.png";
 export default function Home(){
   return (
     
-    <div className="flex flex-wrap justify-center gap-8 items-center p-16">
+    <div className="flex flex-wrap justify-center gap-8 items-center p-16 mt-32">
       <Image src={profilePhoto} width={300} height={300} alt="Profile Photo" className="top-0 rounded-full shadow-sm shadow-white"/>
       
         <div className="flex flex-row justify-center w-6/12 items-center">
