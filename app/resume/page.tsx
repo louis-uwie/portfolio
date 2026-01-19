@@ -6,5 +6,4 @@ export default function ResumePage(){
             Resume Page.
         </div>
     )
-
 }
