@@ -1,12 +1,12 @@
 'use client'; // Ensure that server doesn't need to mind this component.
 
 import Link from "next/link";
-import { Document, Page, pdfjs } from 'react-pdf';
+import dynamic from "next/dynamic";
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-    'pdfjs-dist/legacy/build/pdf.worker.min.mjs',
-    import.meta.url
-).toString();
+const ResumePDF = dynamic(
+    () => import("../components/resumePDF"),
+    { ssr: false }
+);
 
 
 export default function PdfViewer() {
@@ -50,19 +50,7 @@ export default function PdfViewer() {
             </div>
         </div>
 
-
-            <Document
-                file="/resume.pdf"
-                loading={null}
-                error={null}
-            >
-                <Page
-                pageNumber={1}
-                scale={1.3}
-                renderTextLayer={false}
-                renderAnnotationLayer={false}
-                />
-            </Document>
+        <ResumePDF></ResumePDF>
 
         </main>
     );
