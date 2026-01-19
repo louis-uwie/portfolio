@@ -6,7 +6,11 @@ export default function EducationPage() {
     <div className="education-page flex flex-col justify-center gap-8 items-center p-8 mt-32">
       {/* <h1 className="text-4xl font-bold mb-4">Education</h1> */}
 
-      <div className="education-list text-xl flex flex-col gap-4">
+      <p className="text-4xl font-bold">My Educational Background</p>
+
+      <div className="education-list text-xl flex flex-col gap-4 border-t border-white ">
+
+
         {education.map((edu) => ( 
           <div
             key={edu.id}

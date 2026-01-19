@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Cyber Security",
+        "company": "ISC2",
+        "website": "https://www.isc2.org/",
+        "year": 2026,
+        "type": "Certification",
+        "image": "/images/ISC2Logo.png"
+    },
+    {
+        "id": 2,
+        "title": "Reddit Social Analysis on Agriculture Topics in the Philippines",
+        "company": "Ateneo De Manila University",
+        "website": "https://github.com/louis-uwie/philippine-agriculture-reddit-analysis",
+        "year": 2026,
+        "type": "Project",
+        "image": "/images/ISC2Logo.png"
+    },
+    {
+        "id": 3,
+        "title": "Zomato Analysis on Restaurant Trends in Pune, India",
+        "company": "Ateneo De Manila University",
+        "website": "https://github.com/louis-uwie/pune-zomato-recommendation-analysis",
+        "year": 2025,
+        "type": "Project",
+        "image": "/images/ISC2Logo.png"
+    },
+    {
+        "id": 4,
+        "title": "Automated Web-testing Script Using Selenium and PyCharm",
+        "company": "DigiPlus Interactive Corporation",
+        "website": "https://digiplus.com.ph/",
+        "year": 2025,
+        "type": "Project",
+        "image": "/images/DigiPlusLogo.png"
+    },
+    {
+        "id": 5,
+        "title": "Quality Assurance Intern",
+        "company": "DigiPlus Interactive Corporation",
+        "website": "https://digiplus.com.ph/",
+        "year": 2025,
+        "type": "Experience",
+        "image": "/images/DigiPlusLogo.png"
+    },
+    {
+        "id": 6,
+        "title": "Logistics Team Member",
+        "company": "Loyola Schools Office of Placement and Career Services (LSOPCS) - Ateneo De Manila University",
+        "website": "https://www.ateneo.edu/directory/office/he-opcs",
+        "year": 2021,
+        "type": "Experience",
+        "image": "/images/LSOPCSLogo.png"
+
+    }
+]

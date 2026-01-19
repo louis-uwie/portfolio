@@ -9,12 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 
-
 export default function PdfViewer() {
-
-    const downloadResumePDF = () => {
-        console.log("download")
-    }
 
     return (
     <main className="flex flex-col justify-center items-center mb-8">
