@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: #101d42;
+  background-color: oklch(12.9% 0.042 264.695);
   color: #fbf9ff;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
