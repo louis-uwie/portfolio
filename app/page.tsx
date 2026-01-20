@@ -12,7 +12,7 @@ export default function Home(){
           <div className="flex flex-col text-center text-left object-left gap-2">
             <h1 className="text-8xl font-bold">{`Hi, I'm Uwie!`}</h1>
 
-            <p className="text-2xl font-bold text-rose-50">Graduating Student from Ateneo De Manila University.</p>
+            <p className="text-2xl font-bold text-rose-50">Graduating Computer Science Student from Ateneo De Manila University.</p>
 
             <p className="text-xl text-rose-50">An aspiring <b className="font-semibold">software engineer</b> prepared to handle any challenges and opportunities alongside my fellow colleagues in the field of technology.</p>
         
