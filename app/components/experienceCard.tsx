@@ -24,7 +24,7 @@ export default function ExperienceCard({
   tags,
 }: ExperienceCardProps) {
   return (
-    <Card style={{ maxWidth: 350 }}>
+    <Card style={{ maxWidth: 350, minHeight: 250, height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -33,13 +33,13 @@ export default function ExperienceCard({
           alt={title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5">
+          <Typography gutterBottom variant="button">
             {title}
           </Typography>
 
           {description && (
             <Typography
-            variant="body2"
+            variant="subtitle1"
             sx={{
                 color: 'text.secondary',
                 display: '-webkit-box',
@@ -55,8 +55,8 @@ export default function ExperienceCard({
 
           {tags && (
             <Typography
-              variant="body2"
-              sx={{ color: 'text.secondary', marginTop: '8px' }}
+              variant="subtitle2"
+              sx={{ color: 'text.secondary', marginTop: '8px' , border: '1px solid #e0e0e0', padding: '4px', borderRadius: '4px'}}
             >
               {tags.map(tag => (
                 <span key={tag} style={{ marginRight: '4px' }}>

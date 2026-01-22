@@ -8,7 +8,7 @@ export default function ExperiencePage() {
       Experience Page
 
       <div className="flex flex-col justify-center gap-12">
-        <div className="flex flex-wrap justify-center items-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
           {experienceData.map((experience) => (
             <ExperienceCard
               key={experience.id}
