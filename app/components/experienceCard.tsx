@@ -44,7 +44,7 @@ export default function ExperienceCard({
                 color: 'text.secondary',
                 display: '-webkit-box',
                 WebkitBoxOrient: 'vertical',
-                WebkitLineClamp: 3, // number of lines
+                WebkitLineClamp: 4, 
                 overflow: 'hidden',
             }}
             >
