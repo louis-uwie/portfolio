@@ -11,7 +11,7 @@ export interface ExperienceCardProps {
   website: string;
   year: number;
   type: string;
-  image: string;
+  image_dir: string;
   description?: string;
   tags?: string[];
 }
@@ -19,9 +19,10 @@ export interface ExperienceCardProps {
 
 export default function ExperienceCard({
   title,
-  image,
+  image_dir,
   description,
   tags,
+  website,
 }: ExperienceCardProps) {
   return (
     <Card style={{ maxWidth: 350, minHeight: 250, height: '100%' }}>
@@ -29,12 +30,12 @@ export default function ExperienceCard({
         <CardMedia
           component="img"
           height="140"
-          image={image}
+          image={`${image_dir}`}
           alt={title}
         />
         <CardContent>
           <Typography gutterBottom variant="button">
-            {title}
+            {title} <a href={website} target="_blank" rel="noopener noreferrer">🔗</a>
           </Typography>
 
           {description && (
