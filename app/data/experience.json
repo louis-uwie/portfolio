@@ -1,4 +1,5 @@
 [
+
     {
         "id": 1,
         "title": "Introduction to Cyber Security",
@@ -6,7 +7,9 @@
         "website": "https://www.isc2.org/",
         "year": 2026,
         "type": "Certification",
-        "image": "/images/ISC2Logo.png"
+        "image": "/images/ISC2Logo.png",
+        "description": "Completed the 'Introduction to Cyber Security' course offered by ISC2, covering fundamental concepts of cyber security, including threat landscapes, security principles, and best practices for protecting digital assets.",
+        "tags": ["Cyber Security", "Fundamentals", "ISC2"]
     },
     {
         "id": 2,
@@ -15,7 +18,9 @@
         "website": "https://github.com/louis-uwie/philippine-agriculture-reddit-analysis",
         "year": 2026,
         "type": "Project",
-        "image": "/images/ISC2Logo.png"
+        "image": "/images/philippine-agriculture-reddit-analysis.png",
+        "description": "Conducted a comprehensive analysis of Reddit discussions related to agriculture in the Philippines, utilizing data mining and natural language processing techniques to extract insights on prevalent topics, sentiments, and community engagement within the agricultural sector.",
+        "tags": ["Data Analysis", "Reddit", "Agriculture", "Philippines"]
     },
     {
         "id": 3,
@@ -24,7 +29,9 @@
         "website": "https://github.com/louis-uwie/pune-zomato-recommendation-analysis",
         "year": 2025,
         "type": "Project",
-        "image": "/images/ISC2Logo.png"
+        "image": "/images/ISC2Logo.png",
+        "description": "Performed an in-depth analysis of restaurant data from Zomato in Pune, India, employing statistical methods and machine learning algorithms to identify dining trends, customer preferences, and to develop a recommendation system for enhancing user experience on the platform.",
+        "tags": ["Data Analysis", "Zomato", "Restaurant Trends", "Pune India"]
     },
     {
         "id": 4,
@@ -33,7 +40,9 @@
         "website": "https://digiplus.com.ph/",
         "year": 2025,
         "type": "Project",
-        "image": "/images/DigiPlusLogo.png"
+        "image": "/images/DigiPlusLogo.png",
+        "description": "Developed an automated web-testing script utilizing Selenium and PyCharm to streamline the testing process for web applications, enhancing efficiency and accuracy in identifying bugs and ensuring optimal performance across different browsers and devices.",
+        "tags": ["Automation", "Web Testing", "Selenium", "PyCharm"]
     },
     {
         "id": 5,
@@ -42,7 +51,9 @@
         "website": "https://digiplus.com.ph/",
         "year": 2025,
         "type": "Experience",
-        "image": "/images/DigiPlusLogo.png"
+        "image": "/images/DigiPlusLogo.png",
+        "description": "Assisted in the quality assurance processes for web and mobile applications, conducting manual and automated tests to identify defects, ensure functionality, and improve user experience. Collaborated with development teams to implement solutions and enhance overall product quality.",
+        "tags": ["Quality Assurance", "Testing", "Web Applications", "Mobile Applications"]
     },
     {
         "id": 6,
@@ -51,7 +62,9 @@
         "website": "https://www.ateneo.edu/directory/office/he-opcs",
         "year": 2021,
         "type": "Experience",
-        "image": "/images/LSOPCSLogo.png"
+        "image": "/images/LSOPCSLogo.png",
+        "description": "Coordinated logistics for career fairs and recruitment events, managing vendor relationships, overseeing event setup and breakdown, and ensuring smooth operations to facilitate successful interactions between students and potential employers.",
+        "tags": ["Logistics", "Event Coordination", "Career Fairs", "Ateneo De Manila University"]
 
     }
 ]
