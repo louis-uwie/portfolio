@@ -4,6 +4,18 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 
+export interface ExperienceCardProps {
+  id: number;
+  title: string;
+  company: string;
+  website: string;
+  year: number;
+  type: string;
+  image: string;
+  description?: string;
+  tags?: string[];
+}
+
 export default function ExperienceCard({
   title,
   image,
