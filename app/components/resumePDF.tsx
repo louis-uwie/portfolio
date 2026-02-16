@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 export default function ResumePDF() {
   return (
     <div className="flex justify-center">
-      <Document file="/resume.pdf">
+      <Document file="/BINWAG, Louis III - Resume.pdf">
         <Page
           pageNumber={1}
           scale={1.3}
