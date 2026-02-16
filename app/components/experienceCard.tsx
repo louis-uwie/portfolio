@@ -1,8 +1,16 @@
+"use client";
+
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
+
+import "@fontsource/roboto/100.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/700.css";
+import { s } from "framer-motion/client";
 
 export interface ExperienceCardProps {
   id: number;
@@ -24,32 +32,28 @@ export default function ExperienceCard({
   website,
 }: ExperienceCardProps) {
   return (
-    <Card sx={{ maxWidth: 350, minHeight: 250, height: "100%" }}>
-      <CardActionArea>
-        <CardMedia component="img" height="140" image={image} alt={title} />
+    <Card sx={{ maxWidth: 350, minHeight: 350, height: "100%" }}>
+      <CardActionArea onClick={() => window.open(website, "_blank")}>
+        <CardMedia component="img" max-height="140" image={image} alt={title} />
 
         <CardContent>
-          <Typography gutterBottom variant="button" component="div">
+          <Typography
+            gutterBottom
+            variant="button"
+            component="div"
+            sx={{
+              fontSize: "1em",
+              fontWeight: 800,
+              letterSpacing: 0.5,
+              lineHeight: 1,
+            }}
+          >
             {title}{" "}
-            <a href={website} target="_blank" rel="noopener noreferrer">
-              🔗
-            </a>
           </Typography>
 
-          {description && (
-            <Typography
-              variant="subtitle1"
-              sx={{
-                color: "text.secondary",
-                display: "-webkit-box",
-                WebkitBoxOrient: "vertical",
-                WebkitLineClamp: 4,
-                overflow: "hidden",
-              }}
-            >
-              {description}
-            </Typography>
-          )}
+          <Typography sx={{ fontSize: "0.9em", mt: 1, fontWeight: 300 }}>
+            {description}
+          </Typography>
 
           {tags && (
             <Typography
@@ -63,8 +67,15 @@ export default function ExperienceCard({
               }}
             >
               {tags.map((tag) => (
-                <span key={tag} style={{ marginRight: 4 }}>
-                  #{tag}
+                <span
+                  key={tag}
+                  style={{
+                    fontStyle: "italic",
+                    fontSize: "0.8em",
+                    fontWeight: 600,
+                  }}
+                >
+                  • {tag}
                 </span>
               ))}
             </Typography>

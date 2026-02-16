@@ -1,18 +1,7 @@
 [
   {
-    "id": 1,
-    "title": "Introduction to Cyber Security",
-    "company": "ISC2",
-    "website": "https://www.isc2.org/",
-    "year": 2026,
-    "type": "Certification",
-    "image": "/images/philippine-reddit-agriculture.png",
-    "description": "Completed the 'Introduction to Cyber Security' course offered by ISC2, covering fundamental concepts of cyber security, including threat landscapes, security principles, and best practices for protecting digital assets.",
-    "tags": ["Cyber Security", "Fundamentals", "ISC2"]
-  },
-  {
     "id": 2,
-    "title": "Reddit Social Analysis on Agriculture Topics in the Philippines",
+    "title": "Reddit Social Analysis on Agriculture Topics in the Philippines (Project)",
     "company": "Ateneo De Manila University",
     "website": "https://github.com/louis-uwie/philippine-agriculture-reddit-analysis",
     "year": 2026,
@@ -23,7 +12,7 @@
   },
   {
     "id": 3,
-    "title": "Zomato Analysis on Restaurant Trends in Pune, India",
+    "title": "Zomato Analysis on Restaurant Trends in Pune, India (Project)",
     "company": "Ateneo De Manila University",
     "website": "https://github.com/louis-uwie/pune-zomato-recommendation-analysis",
     "year": 2025,
@@ -34,7 +23,7 @@
   },
   {
     "id": 4,
-    "title": "Automated Web-testing Script Using Selenium and PyCharm",
+    "title": "Automated Web-testing Script Using Selenium and PyCharm (Project)",
     "company": "DigiPlus Interactive Corporation",
     "website": "https://digiplus.com.ph/",
     "year": 2025,
@@ -45,7 +34,7 @@
   },
   {
     "id": 5,
-    "title": "Quality Assurance Intern",
+    "title": "Quality Assurance Intern (Project)",
     "company": "DigiPlus Interactive Corporation",
     "website": "https://digiplus.com.ph/",
     "year": 2025,
@@ -61,7 +50,7 @@
   },
   {
     "id": 6,
-    "title": "Logistics Team Member",
+    "title": "Logistics Team Member (Position)",
     "company": "Loyola Schools Office of Placement and Career Services (LSOPCS) - Ateneo De Manila University",
     "website": "https://www.ateneo.edu/directory/office/he-opcs",
     "year": 2021,
