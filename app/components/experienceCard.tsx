@@ -32,7 +32,18 @@ export default function ExperienceCard({
   website,
 }: ExperienceCardProps) {
   return (
-    <Card sx={{ maxWidth: 350, minHeight: 350, height: "100%" }}>
+    <Card
+      sx={{
+        maxWidth: 350,
+        minHeight: 350,
+        height: "100%",
+        cursor: "pointer",
+        transition: "transform 0.3s ease-in-out",
+        "&:hover": {
+          transform: "scale(1.05)",
+        },
+      }}
+    >
       <CardActionArea onClick={() => window.open(website, "_blank")}>
         <CardMedia component="img" max-height="140" image={image} alt={title} />
 

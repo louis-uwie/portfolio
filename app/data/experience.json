@@ -17,7 +17,7 @@
     "website": "https://github.com/louis-uwie/pune-zomato-recommendation-analysis",
     "year": 2025,
     "type": "Project",
-    "image": "/images/philippine-reddit-agriculture.png",
+    "image": "/images/zomato-recommendation.png",
     "description": "Performed an in-depth analysis of restaurant data from Zomato in Pune, India, employing statistical methods and machine learning algorithms to identify dining trends, customer preferences, and to develop a recommendation system for enhancing user experience on the platform.",
     "tags": ["Data Analysis", "Zomato", "Restaurant Trends", "Pune India"]
   },
@@ -25,21 +25,21 @@
     "id": 4,
     "title": "Automated Web-testing Script Using Selenium and PyCharm (Project)",
     "company": "DigiPlus Interactive Corporation",
-    "website": "https://digiplus.com.ph/",
+    "website": "https://github.com/louis-uwie/pycharm-web-testing-automation",
     "year": 2025,
     "type": "Project",
-    "image": "/images/philippine-reddit-agriculture.png",
+    "image": "/images/pycharm-snippet.png",
     "description": "Developed an automated web-testing script utilizing Selenium and PyCharm to streamline the testing process for web applications, enhancing efficiency and accuracy in identifying bugs and ensuring optimal performance across different browsers and devices.",
     "tags": ["Automation", "Web Testing", "Selenium", "PyCharm"]
   },
   {
     "id": 5,
-    "title": "Quality Assurance Intern (Project)",
+    "title": "Quality Assurance Intern (Position)",
     "company": "DigiPlus Interactive Corporation",
     "website": "https://digiplus.com.ph/",
     "year": 2025,
     "type": "Experience",
-    "image": "/images/philippine-reddit-agriculture.png",
+    "image": "/images/digiplus-logo.webp",
     "description": "Assisted in the quality assurance processes for web and mobile applications, conducting manual and automated tests to identify defects, ensure functionality, and improve user experience. Collaborated with development teams to implement solutions and enhance overall product quality.",
     "tags": [
       "Quality Assurance",
@@ -55,7 +55,7 @@
     "website": "https://www.ateneo.edu/directory/office/he-opcs",
     "year": 2021,
     "type": "Experience",
-    "image": "/images/philippine-reddit-agriculture.png",
+    "image": "/images/lsopcs-background.png",
     "description": "Coordinated logistics for career fairs and recruitment events, managing vendor relationships, overseeing event setup and breakdown, and ensuring smooth operations to facilitate successful interactions between students and potential employers.",
     "tags": [
       "Logistics",
