@@ -63,5 +63,21 @@
       "Career Fairs",
       "Ateneo De Manila University"
     ]
+  },
+  {
+    "id": 7,
+    "title": "Cross Platform File Transfer Application (Project)",
+    "company": "Ateneo De Manila University",
+    "website": "https://github.com/louis-uwie/cross-platform-file-transfer",
+    "year": 2025,
+    "type": "Project",
+    "image": "/images/cross-platform-swiftshare.png",
+    "description": "Developed a cross-platform file transfer application through Android Studio that enables seamless file sharing between Windows and Android devices using Bluetooth and LAN technologies.",
+    "tags": [
+      "Kotlin",
+      "Bluetooth API",
+      "Android Studio",
+      "Cross-Platform Development"
+    ]
   }
 ]
